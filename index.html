@@ -7,6 +7,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -42,7 +43,19 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
+            <div class="chats_chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/lemon.png" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">Lynn</span>
+                  <span class="friend__bottom-text">Going home!</span>
+                </div>
+              </div>
+              <div class="friend_column">
+                <span class="chat__timestamp">March 8</span>
+              </div>
+            </div>
+            <!-- <div class="chat__column">
               <img
                 class="chat__avatar g-avatar"
                 src="images/lemon.png"
@@ -56,7 +69,7 @@
             </div>
             <div class="chat__column">
               <span class="chat__timestamp">Yesterday</span>
-            </div>
+            </div> -->
           </a>
         </li>
       </ul>
@@ -65,6 +78,7 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
+            <box class="nav__badge">8</box>
             <i class="far fa-user"></i>
           </a>
         </li>
