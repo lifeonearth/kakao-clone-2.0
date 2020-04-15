@@ -1,4 +1,9 @@
 .header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 55px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;

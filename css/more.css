@@ -39,10 +39,11 @@
   background-color: #fce006;
   padding: 10px;
   border-radius: 10px;
-  display: center;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .suggestion__icon i {
   font-size: 28px;
   color: white;

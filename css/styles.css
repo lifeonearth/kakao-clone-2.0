@@ -11,6 +11,10 @@
 @import "chat.css";
 @import "mobile.css";
 
+main {
+  padding-top: 50px;
+}
+
 * {
   box-sizing: border-box;
 }
